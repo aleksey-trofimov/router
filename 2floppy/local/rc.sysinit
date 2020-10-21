@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# /etc/rc.d/rc.sysinit - run once at boot time
+#
+# Taken in part from Miquel van Smoorenburg's bcheckrc.
+#
+
+# Rerun ourselves through initlog
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+export PATH
+#mount none /proc -t proc
+ifconfig eth0 192.168.1.246
