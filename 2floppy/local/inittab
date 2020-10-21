@@ -1,0 +1,7 @@
+
+id:1:initdefault:  
+
+# System initialization.
+si::sysinit:/etc/rc.d/rc.sysinit
+
+1:12345:respawn:/bin/bash
