@@ -1,0 +1,1 @@
+mkboot -b -k router.disk -f router.rfs -r /dev/fd0 /dev/fd0
